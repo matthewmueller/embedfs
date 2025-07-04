@@ -2,11 +2,12 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/matthewmueller/embedfs.svg)](https://pkg.go.dev/github.com/matthewmueller/embedfs)
 
-A simple wrapper for Go's `embed.FS` that makes it seamless to switch between live files in development and embedded files in production
+Easily switch between live files in development and embedded files in production.
 
 ## Features
 
 - Works with `go run` and `go build`.
+- Tiny wrapper on top of `embed.FS`
 - No need to change your code or environment.
 - Minimal dependencies and easy to use.
 
